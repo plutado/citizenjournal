@@ -1,0 +1,5 @@
+name = citizenjournal
+description = a responsive web design theme build for newspapers, magazines, and multimedia sites - created by david plutado fugate
+package = citizen journal
+version = VERSION
+core = 7.x
