@@ -5,7 +5,7 @@ version = VERSION
 core = 7.x
 engine = phptemplate
 
-stylesheets[screen][] = css/reset.css
+stylesheets[screen][] = css/normalize.css
 stylesheets[screen][] = css/style.css
 
 stylesheets[(min-width: 480px)][] = css/width/0480.css
