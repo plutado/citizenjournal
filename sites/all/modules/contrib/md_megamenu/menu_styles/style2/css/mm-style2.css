@@ -1,0 +1,231 @@
+/* style 1
+----------------------------------------------------------- */
+.mdmegamenu.md-style2 {
+    color: #333;
+}
+
+.mdmegamenu.md-style2 h1,
+.mdmegamenu.md-style2 h2,
+.mdmegamenu.md-style2 h3,
+.mdmegamenu.md-style2 h4,
+.mdmegamenu.md-style2 h5,
+.mdmegamenu.md-style2 h6 {
+    color: #333;
+}
+.mdmegamenu.md-style2 h1 small,
+.mdmegamenu.md-style2 h2 small,
+.mdmegamenu.md-style2 h3 small,
+.mdmegamenu.md-style2 h4 small,
+.mdmegamenu.md-style2 h5 small,
+.mdmegamenu.md-style2 h6 small {
+    color: #555;
+}
+
+/* horizontal */
+.md-horizontal.md-style2 {
+	background: #000;
+	border-bottom: 3px solid #FFDE84;
+}
+
+.md-style2 {
+	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.md-style2 .mm-item > a,
+.md-style2 .mm-item > a:link,
+.md-style2 .mm-item > a:visited {
+    border-top: 3px solid;
+    border-color: rgb(0,0,0);
+    border-color: rgba(0,0,0,0);
+	font-size: 13px;
+    font-weight: normal;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 22px 3px;
+}
+
+.md-style2 .mm-item > a.with-arrow {
+	padding-right: 29px;
+}
+
+.md-style2 .mm-hover > a:hover {
+	color:#444
+}
+
+.md-style2 .mm-active > a,
+.md-style2 .mm-active > a:link,
+.md-style2 .mm-active > a:visited {
+    color: #FFDE84;
+}
+
+.md-style2 li.mm-hover {
+    background: #000;
+    color: #333;
+}
+
+.md-style2 li.mm-hover > a,
+.md-style2 li.mm-hover > a:link,
+.md-style2 li.mm-hover > a:visited,
+.md-style2 ul.mm-container .mm-active > a,
+.md-style2 ul.mm-container .mm-active > a:link,
+.md-style2 ul.mm-container .mm-active > a:visited {
+    background: #fff;
+    border-color: #FFDE84;
+    color: #000;
+}
+
+.md-style2 .mm-container {
+	background: #fff;
+    border-bottom: 3px solid #FFDE84;
+	top: 60px;
+}
+
+.md-style2 .mm-container a,
+.md-style2 .mm-container a:link,
+.md-style2 .mm-container a:visited {
+	color: #59ADEC;
+	border: none;
+}
+
+.md-style2 .mm-container a:hover {
+    color: #000;
+}
+
+.md-style2 .mm-sub h3.mm-header {
+    color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/* vertical style */
+.md-vertical.md-style2 {
+	height: auto;
+}
+.md-vertical.md-style2 .mm-container {
+    border-top: 3px solid #FFDE84;
+}
+.md-vertical.md-style2 ul.mm-container {
+    border-top: none;
+}
+.md-vertical.md-style2 ul.megamenu {
+	background: #000;
+	padding: 12px 10px 12px 0;
+}
+
+.md-vertical.md-style2 ul.megamenu > li {
+	padding-left: 10px;
+}
+
+.md-vertical-rtl.md-style2 ul.megamenu > li {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.md-vertical.md-style2 .mm-item > a {
+	line-height: 22px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.md-vertical-rtl.md-style2 .mm-item > a {
+	padding-right: 10px;
+	padding-left: 29px;
+}
+
+.md-vertical.md-style2 li.mm-hover > a {
+	background: #fff
+}
+
+/* menu item with description */
+.md-style2 .mm-item > a span.mm-desc {
+	color: #666;
+	font-size: 11px;
+	line-height: 1.4em;
+	margin-top: -10px;
+	padding-bottom: 10px;
+	text-transform: none;
+}
+
+.md-style2 .mm-hover > a span.mm-desc {
+	color: #ddd
+}
+
+/* fixed bottom */
+.md-style2.mm-fixed-bottom {
+    border-top: 3px solid #FFDE84;
+    border-bottom: none;
+}
+
+.md-style2.mm-fixed-bottom .mm-item > a,
+.md-style2.mm-fixed-bottom .mm-item > a:link,
+.md-style2.mm-fixed-bottom .mm-item > a:visited {
+    border-top: none;
+    border-bottom: 3px solid;
+    border-color: rgb(0,0,0);
+    border-color: rgba(0,0,0,0);
+    padding-bottom: 0px;
+    padding-top: 3px;
+}
+.md-style2.mm-fixed-bottom .mm-item > a:hover {
+    border-color: #FFDE84;
+}
+
+.md-style2.mm-fixed-bottom .mm-container {
+    border-bottom: none;
+    border-top: 3px solid #FFDE84;
+}
+
+.md-style2 .mm-toggle {
+    background-color: #000;
+    height: 46px;
+}
+
+/* arrow */
+.md-style2 .mm-arrow {
+    background: url(../images/mm-arrow.gif) no-repeat 0 0;
+    width: 7px;
+    height: 4px;
+}
+
+.md-style2 .mm-hover .mm-arrow {
+    background-position: 0 -4px;
+}
+
+.md-style2 ul.mm-container li .mm-arrow,
+.md-vertical.md-style2 .mm-arrow {
+    background-position: -15px 0;
+    width: 4px;
+    height: 7px;
+}
+
+.md-vertical-rtl.md-style2 ul.mm-container li .mm-arrow,
+.md-vertical-rtl.md-style2 .mm-arrow {
+    background-position: -23px 0;
+}
+
+.md-vertical.md-style2 .mm-arrow {
+    margin-top: -3px;
+}
+
+.md-style2 ul.mm-container a:hover .mm-arrow,
+.md-vertical.md-style2 .mm-hover .mm-arrow{
+    background-position: -19px 0
+}
+
+.md-vertical-rtl.md-style2 ul.mm-container a:hover .mm-arrow,
+.md-vertical-rtl.md-style2 .mm-hover .mm-arrow{
+    background-position: -27px 0
+}
+
+.md-style2.mm-fixed-bottom .mm-arrow {
+    background-position: -7px 0;
+    margin: 0;
+}
+
+.md-style2.mm-fixed-bottom .mm-hover .mm-arrow {
+    background-position: -7px -4px;
+}
+
+.md-style2.mm-fixed-bottom ul.mm-container .mm-arrow {
+    background-position: -15px 0;
+}

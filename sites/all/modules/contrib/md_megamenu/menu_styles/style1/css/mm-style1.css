@@ -1,0 +1,147 @@
+/* style 1
+----------------------------------------------------------- */
+.mdmegamenu.md-style1 h1,
+.mdmegamenu.md-style1 h2,
+.mdmegamenu.md-style1 h3,
+.mdmegamenu.md-style1 h4,
+.mdmegamenu.md-style1 h5,
+.mdmegamenu.md-style1 h6 {
+    color: #fff;
+}
+
+/* horizontal */
+.md-horizontal.md-style1 {
+	background: #fff;
+	border-bottom: 3px solid #000;
+}
+
+.md-style1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.md-style1 .mm-item > a,
+.md-style1 .mm-item > a:link,
+.md-style1 .mm-item > a:visited {
+	font-size: 12px;
+	line-height: 41px;
+	color: #000;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.md-style1 .mm-item > a.with-arrow {
+	padding-right: 26px;
+}
+
+.md-style1 .mm-hover > a:hover {
+	color:#444
+}
+
+.md-style1 .mm-active > a,
+.md-style1 .mm-active > a:link,
+.md-style1 .mm-active > a:visited {
+    background: #000;
+    color: #fff;
+}
+
+.md-style1 li.mm-hover {
+    background: #000;
+    color: #fff;
+}
+
+.md-style1 li.mm-hover > a,
+.md-style1 li.mm-hover > a:link,
+.md-style1 li.mm-hover > a:visited {
+    color: #fff;
+}
+.md-style1 ul.mm-container li.mm-hover > a,
+.md-style1 ul.mm-container li.mm-hover > a:hover,
+.md-style1 ul.mm-container a:hover,
+.md-style1 ul.mm-container .mm-active > a,
+.md-style1 ul.mm-container .mm-active > a:link,
+.md-style1 ul.mm-container .mm-active > a:visited {
+    background: #fff;
+    color: #333;
+}
+
+.md-style1 .mm-container {
+	background: #000;
+	top: 41px;
+}
+
+.md-style1 .mm-container a,
+.md-style1 .mm-container a:link,
+.md-style1 .mm-container a:visited {
+	color: #ccc;
+	border: none;
+}
+
+.md-style1 .mm-sub h3.mm-header {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+/* vertical style */
+.md-vertical.md-style1 {
+	height: auto;
+}
+
+.md-vertical.md-style1 ul.megamenu {
+	background: #fff;
+	padding: 12px 0;
+}
+
+.md-vertical.md-style1 ul.megamenu > li {
+	background: #fff;
+	padding-left: 12px;
+}
+
+.md-vertical-rtl.md-style1 ul.megamenu > li {
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+.md-vertical.md-style1 .mm-item > a {
+	line-height: 18px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.md-vertical-rtl.md-style1 .mm-item > a {
+	padding-right: 10px;
+	padding-left: 20px;
+}
+.md-vertical.md-style1 li.mm-hover > a {
+	background: #000
+}
+
+.md-vertical.md-style1 li.mm-hover {
+	background: #000;
+	color: #fff;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* menu item with description */
+.md-style1 .mm-item > a span.mm-desc {
+	color: #666;
+	font-size: 11px;
+	line-height: 1.4em;
+	margin-top: -10px;
+	padding-bottom: 10px;
+	text-transform: none;
+}
+
+/* menu fixed */
+.md-style1 .mm-toggle {
+    border-top: 3px solid #000;
+    background-image: url(../images/fixed-toggle.png);
+    background-color: #fff;
+    height: 41px;
+}
+
+.md-style1.mm-fixed-bottom .mm-toggle {
+    border-top: none;
+    border-bottom: 3px solid #000;
+}

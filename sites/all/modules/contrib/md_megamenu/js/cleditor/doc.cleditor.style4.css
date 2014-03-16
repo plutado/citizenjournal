@@ -1,0 +1,287 @@
+body {
+    background: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	color: #333;
+    padding: 0 8px;
+}
+/* typo: common */
+a {
+    color: #000;
+}
+.mm-container li {
+    padding: 3px 0
+}
+ul.mm-container li {
+    padding: 0
+}
+small {
+    font-size: 85%;
+}
+
+strong {
+    font-weight: bold;
+    color: #eee
+}
+
+em {
+    font-style: italic;
+}
+
+cite {
+    font-style: normal;
+}
+/* typo: heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px 0;
+    padding: 0;
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 20px;
+    text-rendering: optimizelegibility;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    font-weight: normal;
+    line-height: 1em;
+    color: #999999;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1em;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+h1 small {
+    font-size: 19px;
+}
+
+h2 small {
+    font-size: 15px;
+}
+
+h3 small {
+    font-size: 13px;
+}
+
+h4 small {
+    font-size: 12px;
+}
+
+/* typo: highlight */
+.highlight,
+.highlight-important,
+.highlight-warning,
+.highlight-success,
+.highlight-info,
+.badge,
+.badge-important,
+.badge-info,
+.badge-warning,
+.badge-success {
+    padding: 0 2px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #999999;
+}
+.badge,
+.badge-important,
+.badge-info,
+.badge-warning,
+.badge-success {
+    display: inline-block;
+    padding: 2px 9px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    white-space: nowrap;
+    vertical-align: baseline;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.highlight:empty,
+.badge:empty {
+    display: none;
+}
+
+a.highlight:hover,
+a.badge:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.highlight-important,
+.badge-important {
+    background-color: #b94a48;
+}
+
+.highlight-important[href],
+.badge-important[href]{
+    background-color: #953b39;
+}
+
+.highlight-warning,
+.badge-warning {
+    background-color: #f89406;
+}
+
+.highlight-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+.highlight-success,
+.badge-success {
+    background-color: #468847;
+}
+
+.highlight-success[href],
+.badge-success[href] {
+    background-color: #356635;
+}
+
+.highlight-info,
+.badge-info {
+    background-color: #3a87ad;
+}
+
+.highlight-info[href],
+.badge-info[href] {
+    background-color: #2d6987;
+}
+
+/* typo: message */
+.message,
+.message-success,
+.message-error,
+.message-info {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    color: #c09853;
+}
+
+.message-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.message-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.message-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+/* typo: icon */
+p.icon-warning,
+p.icon-lock,
+p.icon-info,
+p.icon-question,
+p.icon-tips,
+p.icon-rss,
+p.icon-doc,
+p.icon-note,
+p.icon-star {
+	padding-left: 25px;
+}
+
+p.icon-warning {
+	background: url(../../menu_styles/images/icons/warning.png) no-repeat 0 0
+}
+p.icon-lock {
+	background: url(../../menu_styles/images/icons/lock.png) no-repeat 0 0
+}
+p.icon-info {
+	background: url(../../menu_styles/images/icons/info.png) no-repeat 0 0
+}
+p.icon-question {
+	background: url(../../menu_styles/images/icons/question.png) no-repeat 0 0
+}
+p.icon-tips {
+	background: url(../../menu_styles/images/icons/tips.png) no-repeat 0 0
+}
+p.icon-rss {
+	background: url(../../menu_styles/images/icons/rss.png) no-repeat 0 0
+}
+p.icon-doc {
+	background: url(../../menu_styles/images/icons/doc.png) no-repeat 0 0
+}
+p.icon-note {
+	background: url(../../menu_styles/images/icons/note.png) no-repeat 0 0
+}
+p.icon-star {
+	background: url(../../menu_styles/images/icons/star.png) no-repeat 0 0
+}
+
+/* typo: list */
+ul li {
+	background:url(../../menu_styles/images/bullet.png) no-repeat 16px 7px;
+	padding: 0 0 0 30px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+ul.list-arrow li {
+	background: url(../../menu_styles/images/icons/arrow.png) no-repeat 0 0;
+	padding-left: 25px;
+}
+ul.list-check li {
+	background: url(../../menu_styles/images/icons/check.png) no-repeat 0 0;
+	padding-left: 25px;
+}
+ul.list-star li {
+	background: url(../../menu_styles/images/icons/star.png) no-repeat 0 0;
+	padding-left: 25px;
+}
+ol {
+	padding-left: 30px;
+}

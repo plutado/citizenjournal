@@ -1,0 +1,5 @@
+
+
+qTip 7.x-1.x-dev, 2010-08-18
+-------------------------------
+Initial release of qTip module (early development).

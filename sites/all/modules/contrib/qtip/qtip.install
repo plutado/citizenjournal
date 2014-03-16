@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the qtip module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function qtip_install() {
+  // un-comment this once you've implemented the schema
+  //drupal_install_schema('qtip');
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function qtip_uninstall() {
+  // Remove any set variables used for the qTip module
+  db_query("DELETE FROM {variable} WHERE name LIKE 'qtip\_%'");
+  // Remove qTip from the filter table
+  db_query("DELETE FROM {filter} WHERE module='qtip'");
+}
