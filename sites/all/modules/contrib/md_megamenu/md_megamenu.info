@@ -1,0 +1,11 @@
+name = MD MegaMenu
+description = Drag and drop to create mega menu.
+core = 7.x
+package = Megadrupal
+files[] = md_megamenu.module
+dependencies[] = media
+
+project status url = http://megadrupal.com/fserver
+version = "7.x-1.12"
+core = "7.x"
+project = "md_megamenu"

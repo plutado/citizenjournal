@@ -1,0 +1,238 @@
+.cleditorMain {background-color:#fff}
+.cleditorMain iframe {border:none; margin:0; padding:0}
+.cleditorMain textarea {border:none; margin:0; padding:0; overflow-y:scroll; font:10pt Arial,Verdana; resize:none; outline:none /* webkit grip focus */}
+.cleditorToolbar {background:url(images/toolbar.png) repeat-x left top; height: 33px; padding: 0 6px}
+.cleditorGroup {float:left; height:32px}
+.cleditorButton {float:left; width:27px; height:27px; margin:2px 0 0; background: url(images/buttons.png);}
+.cleditorDisabled {opacity:0.3; filter:alpha(opacity=30)}
+.cleditorDivider {float:left; width:2px; margin: 0 6px; height:32px; background: url(images/divider.png) no-repeat 0 0;}
+.cleditorPopup {border:solid 1px #999; background-color:white; position:absolute; font:10pt Arial,Verdana; cursor:default; z-index:10000}
+.cleditorList div {padding:2px 4px 2px 4px}
+.cleditorList p,
+.cleditorList h1,
+.cleditorList h2,
+.cleditorList h3,
+.cleditorList h4,
+.cleditorList h5,
+.cleditorList h6,
+.cleditorList font {padding:0; margin:0; background-color:Transparent}
+.cleditorColor {width:150px; padding:1px 0 0 1px}
+.cleditorColor div {float:left; width:14px; height:14px; margin:0 1px 1px 0}
+.cleditorPrompt {background-color:#F6F7F9; padding:4px; font-size:8.5pt}
+.cleditorPrompt input,
+.cleditorPrompt textarea {font:8.5pt Arial,Verdana;}
+.cleditorMsg {background-color:#FDFCEE; width:150px; padding:4px; font-size:8.5pt}
+
+.fcol1 {float: left; width: 140px; margin-left: 15px}
+.fcol2 {float: left; width: 360px; margin-left: 15px}
+    .fscol1 {float: left; width: 168px}
+    .fscol2 {float: left; width: 160px; margin-left: 15px}
+.fcol3 {float: left; width: 160px; clear: left;margin-left: 15px}
+.fcol4 {float: left; width: 160px; margin-left: 15px}
+.fcol5 {float: left; width: 140px}
+
+
+/* typo: heading */
+.cleditorPopup .typoh1,
+.cleditorPopup .typoh2,
+.cleditorPopup .typoh3,
+.cleditorPopup .typoh4,
+.cleditorPopup .typoh5,
+.cleditorPopup .typoh6 {
+    margin: 10px 0;
+    padding: 0;
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 20px;
+    text-rendering: optimizelegibility;
+}
+
+.cleditorPopup .typoh1,
+.cleditorPopup .typoh2,
+.cleditorPopup .typoh3 {
+    line-height: 1.1em;
+}
+
+.cleditorPopup .typoh1 {
+    font-size: 30px;
+}
+
+.cleditorPopup .typoh2 {
+    font-size: 24px;
+}
+
+.cleditorPopup .typoh3 {
+    font-size: 18px;
+}
+
+.cleditorPopup .typoh4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.cleditorPopup .typoh5 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.cleditorPopup .typoh6 {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* typo: highlight */
+.cleditorPopup .typos1,
+.cleditorPopup .typos2,
+.cleditorPopup .typos3,
+.cleditorPopup .typos4,
+.cleditorPopup .typos5,
+.cleditorPopup .typob1,
+.cleditorPopup .typob2,
+.cleditorPopup .typob3,
+.cleditorPopup .typob4,
+.cleditorPopup .typob5 {
+    padding: 0 2px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #999999;
+    margin-bottom: 5px;
+}
+.cleditorPopup .typob1,
+.cleditorPopup .typob2,
+.cleditorPopup .typob3,
+.cleditorPopup .typob4,
+.cleditorPopup .typob5 {
+    display: inline-block;
+    padding: 2px 9px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    white-space: nowrap;
+    vertical-align: baseline;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.cleditorPopup .typos2,
+.cleditorPopup .typob2 {
+    background-color: #b94a48;
+}
+
+.cleditorPopup .typos2[href],
+.cleditorPopup .typob2[href]{
+    background-color: #953b39;
+}
+
+.cleditorPopup .typos3,
+.cleditorPopup .typob3 {
+    background-color: #f89406;
+}
+
+.cleditorPopup .typos3[href],
+.cleditorPopup .typob3[href] {
+    background-color: #c67605;
+}
+
+.cleditorPopup .typos4,
+.cleditorPopup .typob4 {
+    background-color: #468847;
+}
+
+.cleditorPopup .typos4[href],
+.cleditorPopup .typob4[href] {
+    background-color: #356635;
+}
+
+.cleditorPopup .typos5,
+.cleditorPopup .typob5 {
+    background-color: #3a87ad;
+}
+
+.cleditorPopup .typos5[href],
+.cleditorPopup .typob5[href] {
+    background-color: #2d6987;
+}
+
+/* typo: message */
+.cleditorPopup .typop1,
+.cleditorPopup .typop2,
+.cleditorPopup .typop3,
+.cleditorPopup .typop4 {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    color: #c09853;
+}
+
+.cleditorPopup .typop2 {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.cleditorPopup .typop3 {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.cleditorPopup .typop4 {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+/* typo: icon */
+.cleditorPopup .typop5,
+.cleditorPopup .typop6,
+.cleditorPopup .typop7,
+.cleditorPopup .typop8,
+.cleditorPopup .typop9,
+.cleditorPopup .typop10,
+.cleditorPopup .typop11,
+.cleditorPopup .typop12,
+.cleditorPopup .typop13,
+.cleditorPopup .typol1,
+.cleditorPopup .typol2,
+.cleditorPopup .typol3 {
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.cleditorPopup .typop5 {
+    background: url(../../menu_styles/images/icons/warning.png) no-repeat 0 0;
+}
+.cleditorPopup .typop6 {
+    background: url(../../menu_styles/images/icons/lock.png) no-repeat 0 0
+}
+.cleditorPopup .typop7 {
+    background: url(../../menu_styles/images/icons/info.png) no-repeat 0 0
+}
+.cleditorPopup .typop8 {
+    background: url(../../menu_styles/images/icons/question.png) no-repeat 0 0
+}
+.cleditorPopup .typop9 {
+    background: url(../../menu_styles/images/icons/tips.png) no-repeat 0 0
+}
+.cleditorPopup .typop10 {
+    background: url(../../menu_styles/images/icons/rss.png) no-repeat 0 0
+}
+.cleditorPopup .typop11 {
+    background: url(../../menu_styles/images/icons/doc.png) no-repeat 0 0
+}
+.cleditorPopup .typop12 {
+    background: url(../../menu_styles/images/icons/note.png) no-repeat 0 0
+}
+.cleditorPopup .typop13,
+.cleditorPopup .typol3 {
+    background: url(../../menu_styles/images/icons/star.png) no-repeat 0 0
+}
+.cleditorPopup .typol1 {
+    background: url(../../menu_styles/images/icons/arrow.png) no-repeat 0 0
+}
+.cleditorPopup .typol2 {
+    background: url(../../menu_styles/images/icons/check.png) no-repeat 0 0
+}
