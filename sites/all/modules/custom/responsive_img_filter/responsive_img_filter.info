@@ -1,3 +1,0 @@
-name = "Responsive Image Filter"
-description = "An text filter to force image in the body field to be responsive."
-core = 7.x
