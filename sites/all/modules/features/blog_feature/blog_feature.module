@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the blog_feature feature.
- */
-
-include_once 'blog_feature.features.inc';

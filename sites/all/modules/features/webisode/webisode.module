@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the webisode feature.
- */
-
-include_once 'webisode.features.inc';
