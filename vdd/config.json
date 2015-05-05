@@ -1,0 +1,30 @@
+{
+  "vm": {
+    "ip": "192.168.44.44",
+    "memory": "2048",
+    "synced_folders": [
+      {
+        "host_path": "data/",
+        "guest_path": "/var/www",
+        "type": "default"
+      }
+    ],
+    "forwarded_ports": []
+  },
+  "vdd": {
+    "sites": {
+      "thor-equities": {
+        "account_name": "root",
+        "account_pass": "root",
+        "account_mail": "david@davidfugate.com",
+        "site_name": "Citizen Journal",
+        "site_mail": "david@davidfugate.com",
+        "vhost": {
+          "document_root": "citizenjournal",
+          "url": "citizenjournal.local",
+          "alias": ["www.citizenjournal.local"]
+        }
+      }
+    }
+  }
+}
