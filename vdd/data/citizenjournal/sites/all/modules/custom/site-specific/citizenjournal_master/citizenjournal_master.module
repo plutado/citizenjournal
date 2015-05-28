@@ -1,0 +1,20 @@
+<?php
+
+/**
+* @file
+* Thor Module configuration
+*/
+
+$master_modules = variable_get('master_modules');
+array_push($master_modules['base'],
+  'feature_content_types',
+  'feature_global_settings',
+  'feature_page_manager',
+  'feature_paragraphs',
+  'feature_taxonomies',
+  'feature_users',
+  'feature_views',
+  'imagecache_actions',
+  'imagecache_canvasactions'
+);
+variable_set('master_modules', $master_modules);

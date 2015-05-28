@@ -1,0 +1,4 @@
+name = Global Master
+description = Listing for the master module
+core = 7.x
+dependencies[] = master

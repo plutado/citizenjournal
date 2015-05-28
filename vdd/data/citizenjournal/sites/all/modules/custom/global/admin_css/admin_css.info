@@ -1,0 +1,4 @@
+name = Admin CSS
+description = Provides a css file for the admin theme.
+version = "7.x-1.0"
+core = 7.x

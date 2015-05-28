@@ -1,0 +1,37 @@
+div.vertical-tabs .vertical-tabs-panes {
+  max-width: 84%;
+}
+
+.atom_reference_drop_zone img {
+  height: auto;
+  width: 30%;
+}
+
+.nicEdit-main {
+  white-space: normal;
+}
+
+#panels-dnd-main .media {
+  display: table;
+  width: 100%;
+}
+
+#panels-dnd-main .thoughts {
+  float: left;
+  width: 40%;
+}
+
+#panels-dnd-main .videos {
+  float: left;
+  width: 30%;
+}
+
+#panels-dnd-main .news {
+  float: left;
+  width: 30%;
+}
+
+/** Center the text inside of the 'Banner with Text' paragraph on the edit screen **/
+.field-name-field-par-banner-subtitle .nicEdit-main{
+  text-align: center;
+}

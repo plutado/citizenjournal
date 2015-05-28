@@ -1,0 +1,11 @@
+name = Views
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = feature_views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features_exclude[dependencies][fieldable_panels_panes] = fieldable_panels_panes
+features_exclude[dependencies][redirect] = redirect
+features_exclude[dependencies][scald_dnd_library] = scald_dnd_library
+features_exclude[dependencies][views] = views

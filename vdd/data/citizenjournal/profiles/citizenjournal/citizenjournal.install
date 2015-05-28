@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the davidfugate.com profile.
+ * @{
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see http://drupal.org/node/1022020
+ */
+function citizenjournal_install() {
+
+  // Only administrators can create accounts.
+  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
+
+  $themes = array(
+    'adminimal_theme',
+    'citizenjournal',
+  );
+  theme_enable($themes);
+  variable_set('theme_default', 'citizenjournal');
+
+  // Enable the admin theme.
+  variable_set('admin_theme', 'adminimal_theme');
+  variable_set('node_admin_theme', 1);
+
+  // Enable Clean URL's.
+  variable_set('clean_url', 1);
+
+}
+
+/**@}*/

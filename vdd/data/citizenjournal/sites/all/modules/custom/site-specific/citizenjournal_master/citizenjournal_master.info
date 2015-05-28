@@ -1,0 +1,4 @@
+name = CitizenJornal Master
+description = Listing for the site-specific modules that need to be enabled.
+core = 7.x
+dependencies[] = master

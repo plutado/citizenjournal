@@ -1,0 +1,7 @@
+name = Citizen Journal
+description = Profile for Citizen Journal
+version = 7.x-1.0
+core = 7.x
+
+files[] = citizenjournal.install
+files[] = citizenjournal.profile

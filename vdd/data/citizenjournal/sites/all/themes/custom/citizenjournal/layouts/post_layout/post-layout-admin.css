@@ -1,0 +1,19 @@
+/* Post Layout Admin CSS (for panel 'edit' page) */
+article {
+  overflow: hidden;
+}
+
+#panels-dnd-main .main {
+
+}
+
+#panels-dnd-main .post-main-content {
+  float: left;
+  width: 66%;
+}
+
+#panels-dnd-main .right-sidebar {
+  clear: right;
+  float: right;
+  width: 33%;
+}

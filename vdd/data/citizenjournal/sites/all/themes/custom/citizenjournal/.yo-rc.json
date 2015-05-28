@@ -1,0 +1,8 @@
+{
+  "generator-aurora": {
+    "projectName": "citizenjournal",
+    "projectSlug": "citizenjournal",
+    "projectType": "aurora",
+    "projectOptions": []
+  }
+}
