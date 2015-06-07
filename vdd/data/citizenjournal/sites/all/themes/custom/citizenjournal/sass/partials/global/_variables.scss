@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$breakpoint-to-ems: true;
+
+$home-post-item-grid-small: 320px;
+$home-post-item-grid-medium: 740px;
+$home-post-item-grid-large: 1200px;
+
+$post-tiny: 320px;
+$post-small: 540px;
+$post-medium: 768px;
+$post-large: 960px;
+$post-xlarge: 1024px;
+$post-wide: 1440px;

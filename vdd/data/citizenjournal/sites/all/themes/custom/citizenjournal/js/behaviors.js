@@ -73,12 +73,13 @@
       'verticalCentered': false,
       'css3': false,
 //          'sectionsColor': ['#8FB98B', '#DE564B', '#EAE1C0'],
-//          'scrollBar': true,
-//          'scrollingSpeed': 1700,
+      'scrollBar': true,
+      'scrollingSpeed': 1700,
       'navigation': true,
       'navigationPosition': 'right',
       'slidesNavigation': true,
       'autoScrolling': false,
+      'fitToSection': false
     });
   });
 

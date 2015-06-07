@@ -1,0 +1,40 @@
+@mixin blockquote {
+  // border-left: 1px solid #ccc;
+  font-size: 2em;
+  font-weight: 500;
+  // margin: 0 10% 5%;
+  padding: 2em 0em 2em 2em;
+  line-height: 1.2;
+  quotes:"\201C""\201D""\2018""\2019";
+
+  p {
+    display: block;
+    margin: -8% 0 2%;
+    padding: 0 0% 0 10%;
+  }
+
+  &:before {
+    color:#d3d3d3;
+    content:open-quote;
+    font-size: 8em;
+    line-height:.1em;
+    margin-right:.25em;
+    vertical-align:-.4em;
+  }
+
+  .author {
+    color: grey;
+    font-size: 70%;
+    font-style: italic;
+    margin: 0 0;
+    padding: 0 10%;
+
+    &:before {
+      content: ' - ';
+    }
+  }
+}
+
+@mixin section-side-margin {
+  margin: 0 12%;
+}

@@ -1,0 +1,131 @@
+@include add-grid(12);
+@include add-gutter(1);
+@include sgs-change('output', 'float');
+
+section.post-image {
+  overflow: hidden;
+  padding-top: 2rem;
+
+  h2 {
+    font-size: 1.7rem;
+    margin-top: 0;
+    padding-left: 12%;
+    padding-right: 12%;
+    span {
+      font-size: 1.6rem;
+      display: block;
+      font-weight: 400;
+    }
+  }
+
+  p {
+    margin-top: 0;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  &.left {
+    img {
+      @include breakpoint(min-width $post-tiny) {
+      }
+      @include breakpoint(min-width $post-small) {
+      }
+      @include breakpoint(min-width $post-medium) {
+      }
+
+    }
+  }
+
+  &.right {
+    img {
+      @include breakpoint(min-width $post-tiny) {
+      }
+      @include breakpoint(min-width $post-small) {
+      }
+      @include breakpoint(min-width $post-medium) {
+      }
+
+    }
+  }
+
+  &.full {
+    .full-wrapper {
+      background: whitesmoke;
+      margin: 0 auto 1em;
+      padding: 1.5em 1em 0;
+      text-align: center;
+      width: 100%;
+
+      img {
+        width: 90%;
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  .full-width {
+    img {
+      @include grid-span(12, 0);
+      padding: 0% 0% 3% 0;
+    }
+  }
+
+  .one-half {
+    &.left {
+      @include breakpoint(min-width $post-tiny) {
+        padding: 2% 0% 2% 0;
+      }
+      @include breakpoint(min-width $post-small) {
+      }
+      @include breakpoint(min-width $post-medium) {
+        @include grid-span(7, 1);
+        margin-left: 0;
+        margin-right: 0 !important;
+        padding: 0 2.5% 1% 0;
+      }
+    }
+    &.right {
+      @include breakpoint(min-width $post-tiny) {
+        padding: 2% 0% 2% 0;
+      }
+      @include breakpoint(min-width $post-small) {
+      }
+      @include breakpoint(min-width $post-medium) {
+        @include grid-span(7, 6);
+        margin-left: 0 !important;
+        margin-right: 0;
+        padding: 0 0% 1% 2.5%;
+      }
+    }
+  }
+
+  .one-third {
+    &.left {
+      @include breakpoint(min-width $post-tiny) {
+        padding: 2% 0% 2% 0;
+      }
+      @include breakpoint(min-width $post-small) {
+      }
+      @include breakpoint(min-width $post-medium) {
+        @include grid-span(5, 1);
+        margin-left: 0;
+        margin-right: 0 !important;
+        padding: 0 2.5% 1% 0;
+      }
+    }
+    &.right {
+      @include breakpoint(min-width $post-tiny) {
+        padding: 2% 0% 2% 0;
+      }
+      @include breakpoint(min-width $post-small) {
+      }
+      @include breakpoint(min-width $post-medium) {
+        @include grid-span(5, 7);
+        float: right;
+        margin-left: 0 !important;
+        margin-right: 0;
+        padding: 0 0% 1% 2.5%;
+      }
+    }
+  }
+}
